@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
+import postsReducer from "./postsReducer";
 
 export default combineReducers({
-  replaceMe: () =>
-    "this is just tricking redux into thinking that it has a valid reducer to get rid of an error message",
+  posts: postsReducer,
 });
